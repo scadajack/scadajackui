@@ -1,0 +1,159 @@
+@CHARSET "ISO-8859-1";
+
+
+.sjNav {
+	height: 10px;
+}
+	
+.sjMenuButton {
+	float : left;
+}
+
+.sjMenuButton > #editingControl {
+	margin : 0 5px;
+}
+
+.sjMenuButton > #editingControl .title {
+	margin : 0 auto;	
+}
+
+#page-busy-overlay {
+	display : none;
+}
+
+#spinner {
+	width: 100px;
+	height: 50px; 
+	background: #f0f0f0;
+	border:2px solid #999;
+	position:fixed;
+	top:50%;
+	left:50%;
+	margin-top:-25px;
+	margin-left:-50px;
+	opacity: 1;
+	z-index: 1000;
+}
+
+#spinner img {
+	margin: 10px 35px;
+}
+
+.menu-right-arrow {
+	background: 32px 16px url(${resource(dir:'images',file:'grails_logo.png')})  no-repeat;
+	width : 16px;
+	height: 16px;
+}
+
+.rightBar {
+	background-color:#7a92c2;
+	width: 150px;	
+}
+
+#leftBar {
+	margin: 5px;
+	background-color: #B3c2e1;
+	clear:left;
+	float:left;
+		
+}
+
+#leftBar .leftMenu {
+	padding-right:4px;
+	font-family: "Trebuchet MS","Helvetica","Arial","Verdana","sans-serif";
+}
+
+#leftBar .leftMenu dt{
+	border-bottom: 1px dotted #d0e0fe;
+	border-top: 1px dotted #d0e0fe;
+	line-height:1.2em;
+	margin-bottom: 0;
+	margin-top: 1.5em;
+	padding-bottom: 1px;
+	padding-left:5px;
+	font-size: 1.3em;
+	color: #a65431;	
+}
+#leftBar .leftMenu dd{
+	margin-bottom: 0.5em;
+	margin-top: 0.1em;
+	padding-bottom: 2px;
+	padding-left:10px;	
+	font-size: 1.1em;	
+	color: #142240;
+}
+
+#camelControl, #editingControl{
+	background-color:#b0c4de; 
+	margin:5px;
+	padding-left:3px;
+	padding-right:3px;
+}
+
+#camelControl .camelControlTitle {
+	margin: 2px auto;
+	width: 120px;
+	border: 0px;
+	text-align:center;
+	background-color:#b0c4de;	
+}
+
+#camelControl .btnArea {
+	border-top: 1px solid black;
+	padding-top: 2px;
+}	
+#camelControl div.btn{
+	margin: 2px auto;
+	width: 100px;
+	border: 1px outset black;
+	background-color:#b0a4de; 
+	text-align:center;
+}
+
+#camelControl div a {
+	
+}	
+	/* Need a:hover as well as div:hover cause IE doesn't render the hover properly when 
+		the outset border is set. */
+#camelControl a:hover{
+	background-color:white;	
+}
+#camelControl .btn:hover{
+	background-color:white;	
+}
+
+#editingControl .title {
+	margin: 2px auto;
+	width: 120px;
+	border: 0px;
+	text-align:center;
+	background-color:#b0c4de;	
+}
+
+#editingControl .btnArea{
+	border-top: 1px solid black;
+	padding-top: 2px;
+	display:none; /* Initially hidden */
+}
+
+#editingControl .btn:hover{
+	background-color:white;	
+}
+
+.editBtn {
+	margin: 0 auto;
+	width: 100px;
+	border: 1px outset black;
+	background-color:#b0a4de; 
+	text-align:center;
+}
+
+.editBtnSelected {
+	border: 1px solid gray;
+	font-weight:bold;
+	background-color: #9e91c7
+}
+
+.unDecoratedList {
+	list-style-type:none;
+}

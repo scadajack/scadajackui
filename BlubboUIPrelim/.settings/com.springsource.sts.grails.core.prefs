@@ -1,0 +1,21 @@
+#Fri Aug 05 17:54:39 EDT 2011
+com.springsource.sts.grails.core.com.springsource.sts.grails.core.install.name=Grails 1.3.7
+com.springsource.sts.grails.core.source.attachment-grails-bootstrap-1.3.7.jar=C\:/springsource/grails-1.3.7/src/java
+com.springsource.sts.grails.core.source.attachment-grails-core-1.3.7.jar=C\:/Program Files/springsource/grails-1.3.7/src/java
+com.springsource.sts.grails.core.source.attachment-grails-crud-1.3.7.jar=C\:/Program Files/springsource/grails-1.3.7/src/java
+com.springsource.sts.grails.core.source.attachment-grails-docs-1.3.7.jar=C\:/Program Files/springsource/grails-1.3.7/src/java
+com.springsource.sts.grails.core.source.attachment-grails-gorm-1.3.7.jar=C\:/Program Files/springsource/grails-1.3.7/src/java
+com.springsource.sts.grails.core.source.attachment-grails-resources-1.3.7.jar=C\:/Program Files/springsource/grails-1.3.7/src/java
+com.springsource.sts.grails.core.source.attachment-grails-scripts-1.3.7.jar=C\:/Program Files/springsource/grails-1.3.7/src/java
+com.springsource.sts.grails.core.source.attachment-grails-spring-1.3.7.jar=C\:/Program Files/springsource/grails-1.3.7/src/java
+com.springsource.sts.grails.core.source.attachment-grails-test-1.3.7.jar=C\:/Program Files/springsource/grails-1.3.7/src/java
+com.springsource.sts.grails.core.source.attachment-grails-tomcat-plugin-1.0.jar=C\:/Program Files/springsource/grails-1.3.7/src/java
+com.springsource.sts.grails.core.source.attachment-grails-web-1.3.7.jar=C\:/Program Files/springsource/grails-1.3.7/src/java
+com.springsource.sts.grails.core.source.attachment-org.blubbo.camel-0.0.2-SNAPSHOT.jar=C\:/programming/projects/EclipseWSHeliosProjects/blubboSpring/org.blubbo.camel/src/main/java
+com.springsource.sts.grails.core.source.attachment-org.blubbo.data.impl-0.0.2-SNAPSHOT.jar=C\:/programming/projects/EclipseWSHeliosProjects/blubboSpring/org.blubbo.data.impl
+com.springsource.sts.grails.core.source.attachment-org.blubbo.protocol.modbus-0.0.2-SNAPSHOT.jar=C\:/programming/projects/EclipseWSHeliosProjects/blubboSpring/org.blubbo.protocol.modbus/src/main/java
+com.springsource.sts.grails.core.source.attachment-scadajack-camel-polling-0.0.2-SNAPSHOT.jar=C\:/programming/projects/EclipseWSHeliosProjects/blubboSpring/scadajack-camel-polling
+com.springsource.sts.grails.core.source.attachment-scadajack-camel-repo-0.0.2-SNAPSHOT.jar=C\:/programming/projects/EclipseWSHeliosProjects/blubboSpring/scadajack-camel-repo/src/
+com.springsource.sts.grails.core.source.attachment-scadajack-camel-utils-0.0.2-SNAPSHOT.jar=C\:/programming/projects/EclipseWSHeliosProjects/blubboSpring/scadajack-camel-utils/src/main/java
+com.springsource.sts.grails.core.use.default.install=true
+eclipse.preferences.version=1

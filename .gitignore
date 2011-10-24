@@ -1,0 +1,6 @@
+# ignore lib and dojo source files
+*.log
+*.zip
+.metadata/**/*
+.target/*
+*.class

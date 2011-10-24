@@ -1,0 +1,30 @@
+
+
+.body {
+	min-width : 600px;
+}
+.dataTagEdit .ui-jqgrid-titlebar {
+	text-align : center;
+}
+
+.dataTagEdit .ui-jqgrid-title {
+	
+	float : none ! important;
+	font-size : 14px;
+	font-family : verdana,arial,helvetica,sans-serif;
+}
+
+.clearfix {
+  display: block;
+}
+
+.clearfix:after {
+  content: " ";
+  display: block;
+  height: 0pt;
+  clear: both;
+  visibility: hidden;
+  overflow: hidden;
+}
+
+

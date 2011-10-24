@@ -1,0 +1,91 @@
+@CHARSET "ISO-8859-1";
+
+#top-bar-menu {
+	width: 100%;
+}
+
+#top-bar-menu ul {
+	float : left;
+	list-style: none;
+	margin: 0;
+	padding : 0;
+	width : 12em;
+}
+
+#top-bar-menu > ul ul{
+	width : 80%;
+}
+
+#top-bar-menu li {
+	position: relative;
+	width : 90%;
+	padding-left : 10%;
+	margin-top  : 2%;
+	padding-top : 3%;
+}
+
+#top-bar-menu ul ul li{
+	height : 1.5em;
+}
+
+#top-bar-menu ul {
+	position: relative;
+	float: left;
+}	
+
+#top-bar-menu .menu-btn-disabled, #top-bar-menu .menu-btn-disabled a{
+	color: #ccc;
+}
+
+#top-bar-menu h4, #top-bar-menu a, #top-bar-menu .menu-entry {
+	color : #444;
+	font-weight : 700;
+}
+
+#top-bar-menu .menu-right-arrow {
+	background: -32px -17px url(${resource(dir:'css',file:'/images/ui-icons_222222_256x240.png')})  no-repeat;
+	width:16px;
+	height:16px;
+	position:absolute;
+	right:0
+}
+
+#top-bar-menu a.home {
+	/*background:url("http://localhost:8080/BlubboUIPrelim/images/skin/house.png") no-repeat scroll left center transparent;
+	padding-left: 25px;*/
+}
+
+#top-bar-menu h4:hover, #top-bar-menu a:hover, #top-bar-menu li:hover , #top-bar-menu .menu-entry:hover{
+	color : #fff;
+	background : #4ac;
+}
+
+#top-bar-menu .alwaysVisible {
+	display : block;
+	position: relative;
+}
+
+#top-bar-menu ul.hoverVisible {
+	display : none;
+	border  : 1px solid #999;
+	background : #f9f9f9;
+	width: 100%;
+	position : absolute;
+	z-index : 500;
+}
+
+#top-bar-menu ul.hoverVisible ul.hoverVisible{
+	top  : -2px;
+	left : 100%;
+}
+
+#top-bar-menu li:hover > ul.hoverVisible {
+	display : block;	
+}
+
+#top-bar-menu li.list {
+    /*background: url("../images/skin/database_add.png") no-repeat scroll left center transparent;*/
+    color: #333333;
+    padding-left: 25px;
+}
+
