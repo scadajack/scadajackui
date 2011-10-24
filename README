@@ -1,0 +1,21 @@
+This is the ScadajackUI project. Scadajack UI is an HMI program for interfacing to Automation Controllers built in Grails. It uses MySQL as the default data storage provider.
+
+Currently, Scadajack supports the following communication protocols:
+
+1) Modbus TCP
+2) Beckhoff ADS over TCP/UDP
+3) Modbus RTU*
+4) Allen Bradley DF-1 Full Duplex*
+
+* These libraries have been tested independently, but integration tests have not been provided. Further work is likely required.
+
+The user interface consists of two parts:
+
+1) A web browser server-side configuration interface to setup tags and remote client connections. Uses an integrated Jetty Server by default.
+2) An RESTful data query interface.
+
+Issues:
+This project was originally built using the SpringSource STS ToolSuite and used both Maven and Ivy for building. In addition, portions of the code were configured to run on an OSGi framework. So currently the build is quite complicated and a custom POM is needed to bring the pieces together.
+
+Further work on the project will likely fully commit to OSGi or similar framework to simplify build and runtime deployment.
+
